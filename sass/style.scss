@@ -1,0 +1,122 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+@import "_variables";
+
+.redes{
+	div{
+	width:$diametro ;
+	height:$diametro;
+	border-radius: $bordes;
+	display: inline-block;
+	transition: all 0.5s easy-in-out;
+
+	&:hover{
+		transform: scale(1.1,1.1);
+	}
+	
+	&.facebook{
+		background: $facebook;
+		color: white;
+		font-size: $tamanoText;
+		text-align: $alineacionText;
+		margin-right: $espacios;
+
+		span{
+
+			&.ion-social-facebook{
+			display: inline-block;
+    		padding: 15px;
+			}
+		}
+		&:hover{
+		background: darken($facebook,5%);
+		}
+	}
+	&.twitter{
+		background: $twitter;
+		color: white;
+		font-size: $tamanoText;
+		text-align: $alineacionText;
+		margin: $espacios;
+
+		span{
+			
+			&.ion-social-twitter{
+			display: inline-block;
+    		padding: 15px;
+			}
+		}
+		&:hover{
+		background: darken($twitter,5%);
+		}		
+	}
+	&.linkedin{
+		background: $linkedin;
+		color: white;
+		font-size: $tamanoText;
+		text-align: $alineacionText;
+		margin: $espacios;
+		span{
+			
+			&.ion-social-linkedin{
+			display: inline-block;
+    		padding: 15px;
+			}
+		}
+		&:hover{
+		background: darken($linkedin,5%);
+		}
+	}
+	&.googleplus{
+		background: $googleplus;
+		color: white;
+		font-size: $tamanoText;
+		text-align: $alineacionText;
+		margin: $espacios;
+		span{
+			
+			&.ion-social-googleplus{
+			display: inline-block;
+    		padding: 15px;
+			}
+		}
+		&:hover{
+		background: darken($googleplus,5%);
+		}		
+	}
+	&.pinterest{
+		background: $pinterest;
+		color: white;
+		font-size: $tamanoText;	
+		text-align: $alineacionText;
+		margin: $espacios;
+		span{
+			
+			&.ion-social-pinterest{
+			display: inline-block;
+    		padding: 15px;
+			}
+		}
+		&:hover{
+		background: darken($pinterest,5%);
+		}	
+	}
+	&.instagram{
+		background: $instagram;
+		color: white;
+		font-size: $tamanoText;	
+		text-align: $alineacionText;
+		margin: $espacios;
+		span{
+			
+			&.ion-social-instagram{
+			display: inline-block;
+    		padding: 15px;
+			}
+		}
+		&:hover{
+		background: darken($instagram,5%);
+		}	
+	}
+	}
+
+}
